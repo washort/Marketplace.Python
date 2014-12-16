@@ -1,0 +1,6 @@
+{
+    "manifest_url": "http://reviewer-app2.testmanifest.com/manifest.webapp",
+    "categories": ["books", "music"],
+    "device_types": ["firefoxos", "desktop"],
+    "privacy_policy": "do not track"
+}

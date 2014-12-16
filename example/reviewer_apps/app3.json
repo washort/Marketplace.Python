@@ -1,0 +1,6 @@
+{
+    "manifest_url": "http://reviewer-app3.testmanifest.com/manifest.webapp",
+    "categories": ["books", "lifestyle"],
+    "device_types": ["firefoxos", "desktop"],
+    "privacy_policy": "confusing privacy policy"
+}

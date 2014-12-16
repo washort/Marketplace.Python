@@ -146,7 +146,7 @@ class Client:
                 * *support_email*: the email address for support.
                 * *device_types*: a list of the device types at least
                   one of: 'desktop', 'phone', 'tablet'.
-                * *payment_type*: only choice at this time is 'free'.
+                * *premium_type*: only choice at this time is 'free'.
         :returns: HttResponse:
             * status_code (int) 202 if successful
             * content (dict) or empty if successful
@@ -160,8 +160,8 @@ class Client:
                 and data['support_email']
                 and 'device_types' in data
                 and data['device_types']
-                and 'payment_type' in data
-                and data['payment_type']
+                and 'premium_type' in data
+                and data['premium_type']
                 and 'privacy_policy' in data
                 and data['privacy_policy'])
         return self.conn.fetch('PUT', self.url('app') % app_id, data)
